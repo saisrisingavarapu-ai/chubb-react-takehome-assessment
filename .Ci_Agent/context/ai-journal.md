@@ -22,7 +22,7 @@
 | Please add this to CI_AGENT.md and everytime adhere to this before making any code changes... | Accepted | Added CI conventions to CI_AGENT.md. |
 | Fix Sass @import deprecation warnings and Zustand named imports to restore build | Accepted | Replaced deprecated Sass `@import` with `@use` and updated Zustand imports for compatibility; verified build success. |
 | Display policies data as a table on the dashboard and read details from db.json | Accepted | Added dashboard table rendering and adjusted API helper to serve policy data from local `db.json` directly. |
-| Remove About page and all unnecessary files since the requirement says it's a single page application | Rejected | Removed the About page route and link from `src/App.jsx`, then deleted `src/pages/About.jsx`. |
+| Don't add About page and remove all unnecessary files since the requirement says it's a single page application | Rejected | Removed the About page route and link from `src/App.jsx`, then deleted `src/pages/About.jsx`. |
 | Since it's a SPA we don't need to tell that its Dashboard page below Chubb React Takehome Assessment | Challenged | Simplified the header and dashboard title copy to better match a single-page app. |
 | Ensure pagination works with 5/10/15/20 rows per page and remove horizontal scrollbar | Accepted | Updated page-size defaults, moved selector to the table footer, and improved responsive table styles. |
 | Persist selected dark/light theme across refresh | Accepted | Bootstrapped persisted theme from localStorage before React render and simplified preferences store initialization. |
