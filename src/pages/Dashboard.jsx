@@ -88,7 +88,7 @@ function Dashboard() {
     <main className="dashboard-page" aria-labelledby="dashboard-title">
       <section className="dashboard-header">
         <div>
-          <h1 id="dashboard-title">Policy Overview Dashboard</h1>
+          <h1 id="dashboard-title">Policy Overview</h1>
           <p className="dashboard-intro">
             Manage policy records with filters, bulk actions, and status summaries.
           </p>
